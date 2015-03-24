@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="CCL" ext="prg ccl inc tst" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00; 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">= &gt; &lt; ! - + &quot; &apos; ` , : ( ) [ ]</Keywords>
+            <Keywords name="Operators2">BETWEEN EXISTS IN IS LIKE</Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open">subroutine create macro case for if while</Keywords>
+            <Keywords name="Folders in code2, middle">else</Keywords>
+            <Keywords name="Folders in code2, close">end endmacro endcase endfor endif endwhile</Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">call case create declare define drop else elseif end endcase endfor endif endmacro endwhile execute for free go if of program range record return set subroutine to translate while</Keywords>
+            <Keywords name="Keywords2">and by commit delete dummyt from group insert into join left maxrec merge none not or order outerjoin plan rdb rollback select seq union update where with</Keywords>
+            <Keywords name="Keywords3">break col detail foot head macro report row</Keywords>
+            <Keywords name="Keywords4">%B %C %#DEFINE %D %E %#ELSE %#ENDIF %H %#IFDEF %#IFNDEF %I %J %K %L %M %O %P %R %S %T %#UNDEF %V</Keywords>
+            <Keywords name="Keywords5">ABS AESDECRYPT AESDECRYPTFILE AESENCRYPT AESENCRYPTFILE ALTER ALTER2 ALTERLIST ASIS ASSIGN ASSIGN2 ASSIGN3 AVG BAND BLOBGET BLOBGETLEN BNOT BOR BTEST BUILD BUILD2 BUILD2CHK BXOR CALCPOS CALLPRG CCLFMT CCLIO CEIL CHAR CHECK CHECKDIC CHECKFUN CHECKPRG CHECKQUEUE CNVTACC CNVTAGE CNVTAGE2 CNVTAGEDATETIME CNVTALIAS CNVTALPHANUM CNVTB10B16 CNVTB10B36 CNVTB16B10 CNVTB36B10 CNVTBOOL CNVTCAP CNVTDATE CNVTDATE2 CNVTDATETIME CNVTDATETIME2 CNVTDATETIMERDB CNVTDATETIMEUTC CNVTDATETIMEUTC2 CNVTHEXRAW CNVTINT CNVTJSONTOREC CNVTLOOKAHEAD CNVTLOOKBEHIND CNVTLOWER CNVTMIN CNVTMIN2 CNVTNLS CNVTNLSSORT CNVTPHONE CNVTRAWHEX CNVTREAL CNVTRECTOJSON CNVTRECTOXML CNVTSTRING CNVTSTRINGCHK CNVTTIME CNVTTIME2 CNVTTIMESTAMP CNVTUPPER CNVTXMLTOREC CONCAT COST COUNT CUBE CURCODECOVER CURFILE CURLOCALE CURPROG DATETIMEADD DATETIMECMP DATETIMECMPUTC DATETIMEDIFF DATETIMEFIND DATETIMEPART DATETIMETRUNC DATETIMEZONE DATETIMEZONEBYINDEX DATETIMEZONEBYNAME DATETIMEZONEFORMAT DATETIMEZONEUTC DAY DECODE ECHO ECHORECORD ECHOJSON ECHOXML ERROR EVALUATE EVALUATE2 EVEN EXP EXPAND FILLSTRING FINDFILE FINDSTRING FLOOR FORMAT GREATEST HOUR ICHAR INITARRAY INITREC ISNUMERIC JULIAN LEAST LIST LOCATEVAL LOCATEVALSORT LOG LOG10 LOGICAL MAX MAXREC MAXVAL MEDIAN MEMALLOC MEMFREE MEMREALLOC MIN MINUTE MINVAL MOD MODCHECK MODIFY MONTH MOVEREC MOVERECLIST MOVESTRING NEGATE NOPATSTRING NORDBBIND NOTRIM NULL NULLCHECK NULLIND NULLTERM NULLVAL OPERATOR OUTERJOIN PARAMETER PARAMETER2 PARSER PATSTRING PERCENT PERCENTILE PIECE PROXYUSER RAND RDBBIND REFLECT REMOVE RENAMEREC REPLACE REPORTINFO REPORTMOVE REPORTROW ROLLUP ROUND SELECTIVITY SEQ SIZE SORT SORTSEARCH SOUND SOUNDEX SQLPASSTHRU STDDEV SUBSTRING SUM TDBEXECUTE TEXT TEXTLEN TRACE TRIM TRIMBIND TYPE VALIDATE VALUE VARIANCE WEEKDAY WTMODCHECK YEAR UAR_GET_CODE_BY UAR_GET_CODE_DESCRIPTION UAR_GET_CODE_DISPLAY UAR_GET_CODE_MEANING UAR_GET_MEANING_BY_CODESET UAR_RTF UAR_RTF2 UAR_RTF3 UAR_OCF_UNCOMPRESS UAR_CLOSEHANDLE UAR_CREATEPROPLIST UAR_SETPROPSTRING UAR_TIMER_CREATE UAR_TIMER_DESTROY UAR_TIMER_STOP</Keywords>
+            <Keywords name="Keywords6">c* c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 c13 c14 c15 c16 c17 c18 c19 c20 c21 c22 c23 c24 c25 c26 c27 c28 c29 c30 c31 c32 c80 c40 c45 c50 c55 c60 c64 c65 c70 c75 c80 c85 c90 c95 c100 c150 c160 c128 c125 c175 c200 c225 c250 c255 c275 c300 c1000 c2000 c3000 c4000 c32000 dq8 f8 i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 q8 vc</Keywords>
+            <Keywords name="Keywords7">CURACCEPT CURBATCH CURBEDROCK CURCCLREV CURCCLVER CURCLIENTID CURCLK CURDATE CURDOMAIN CURECHO CURENDREPORT CURENV CURGROUP CURHELP CURIMAGE CURLOCALE CURMEM CURNETDOMAIN CURNODE CURPAGE CURPRCNAME CURPROG CURQUAL CURRDB CURRDBACCESS CURRDBHANDLE CURRDBLINK CURRDBNAME CURRDBOPT CURRDBSYS CURRDBUSER CURRETURN CURREV CURREVHNAM CURREVMINOR CURREVMINOR2 CURSCROLL CURSERVER CURSOURCE CURSYS CURSYS2 CURTIME CURTIME2 CURTIME3 CURTIMEZONE CURTIMEZONEAPP CURTIMEZONEDEF CURTIMEZONESYS CURUSER CURUTC CURUTCDIFF CURWORK null SYSDATE SYSTIMESTAMP</Keywords>
+            <Keywords name="Keywords8">constant noconstant protect public private privateprotect persistscript</Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03&apos; 04 05&apos; 06^ 07 08^ 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="009B00" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="009B00" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="804000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000E1" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="C0C0C0" bgColor="FFFFFF" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="FF80FF" bgColor="FFFFFF" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="0000E1" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="0000E1" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="009B00" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
